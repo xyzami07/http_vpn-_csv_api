@@ -18,26 +18,3 @@ def api():
 if __name__ == '__main__':
     app.run(debug=True)
 
-
-
-
-
-# base_url = r"https://www.vpngate.net/api/iphone/"
-
-# df = pd.read_csv(r"vpn_csv.csv").split("#")
-# data = []
-#
-# print(df["*vpn_servers"])
-
-# print(df.columns)
-
-
-
-
-#
-# vpn_data = []
-#
-# if response.status_code == 200:
-#     data = response.raw
-#     print(data)
-
