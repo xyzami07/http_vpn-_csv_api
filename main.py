@@ -13,8 +13,3 @@ data_dict = df.to_dict()
 @app.route("/")
 def api():
     return data_dict
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
