@@ -1,8 +1,8 @@
 from flask import Flask
 import pandas as pd
 
-app = Flask(__name__)
 
+app = Flask(__name__)
 
 df = pd.read_csv('http://www.vpngate.net/api/iphone/', skiprows=1)
 
